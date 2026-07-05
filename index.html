@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel de Technicien en Génie Civil, Concepteur et Modélisateur 3D. Découvrez mes projets de dessin 2D, modélisation BIM (Revit) et rendus photoréalistes de haute qualité.">
+    <title>AHOUANGANSI Picasso L. | Portfolio Concepteur & Modélisateur 3D</title>
+    
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons (via CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo" id="logo-nav">
+                <span class="logo-accent">Port</span>folio
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À Propos</a></li>
+                    <li><a href="#skills" class="nav-link">Compétences</a></li>
+                    <li><a href="#portfolio" class="nav-link">Projets</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Recrutez-moi</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu de navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="grid-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Architecture • Visualisation • Innovation</span>
+                <h1 class="hero-title" style="font-size: 3.2rem; line-height: 1.2; margin-bottom: 12px;">Je suis <span class="text-gradient">Picasso L. Ahouangansi</span></h1>
+                <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 24px; color: var(--text-secondary);">Concevoir le réel, visualiser l'avenir.</h2>
+                <p class="hero-description">
+                    Je conçois des espaces fonctionnels, esthétiques et techniquement cohérents grâce aux outils numériques.
+                </p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">Découvrir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+            </div>
+            
+            <!-- Hero Decorative Render Grid -->
+            <div class="hero-visual">
+                <div class="visual-card-wrapper">
+                    <div class="visual-card">
+                        <img src="assets/project_render.jpg" alt="Rendu photoréaliste moderne" class="visual-img">
+                        <div class="visual-badge">Rendu Photoréaliste</div>
+                    </div>
+                </div>
+                <!-- Mini floating element 2D plan -->
+                <div class="floating-element float-1">
+                    <i class="fa-solid fa-drafting-compass"></i>
+                    <div>
+                        <h4>Précision 2D</h4>
+                        <p>Plans d'exécution</p>
+                    </div>
+                </div>
+                <!-- Mini floating element 3D BIM -->
+                <div class="floating-element float-2">
+                    <i class="fa-solid fa-cubes"></i>
+                    <div>
+                        <h4>Modèles BIM</h4>
+                        <p>LOD 300/400 Revit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Défiler vers le bas">
+            <span class="mouse-icon"><span class="wheel"></span></span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">À Propos De <span class="text-gradient">Picasso Léonardo</span></h2>
+                <p class="section-subtitle">L'alliance de la rigueur technique du génie civil et de la créativité de la modélisation 3D.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-img-area">
+                    <div class="profile-frame">
+                        <img src="assets/profile.png" alt="Photo de profil" class="profile-img">
+                    </div>
+                </div>
+                
+                <div class="about-content-area">
+                    <h3>Technicien rigoureux & Modélisateur passionné</h3>
+                    <p>
+                        Passionné par l’architecture et la conception depuis plusieurs années, je mets mes compétences au service de la création de projets où la rigueur technique rencontre la créativité.
+                    </p>
+                    <p>
+                        Diplômé en Génie Civil, je me concentre principalement sur la conception architecturale, la production de plans techniques et la visualisation 3D.
+                    </p>
+                    <p>
+                        Aujourd’hui, j’approfondis également mes connaissances sur le Building Information Modeling (BIM), une approche qui transforme la manière de concevoir, coordonner et gérer les projets de construction. Mon objectif est de comprendre progressivement ces méthodologies afin de les intégrer dans ma pratique professionnelle.
+                    </p>
+                    <p>
+                        Je considère chaque projet comme une opportunité d’apprentissage et d’amélioration continue.
+                    </p>
+                    
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-num" data-val="5">5+</span>
+                            <span class="stat-lbl">Années d'expérience</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-val="50">50+</span>
+                            <span class="stat-lbl">Projets Modélisés</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-val="100">100%</span>
+                            <span class="stat-lbl">Précision BIM</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">Discutons de votre projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section-padding" id="skills">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Mes <span class="text-gradient">Compétences</span></h2>
+                <p class="section-subtitle">Un éventail d'expertises allant de la conception technique à l'imagerie 3D.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skills-card">
+                    <div class="skills-icon-wrapper">
+                        <i class="fa-solid fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Dessin 2D</h3>
+                    <p>Conception technique conforme aux normes eurocodes et réglementations locales.</p>
+                    <ul class="skills-list-items">
+                        <li><i class="fa-solid fa-check"></i> Plan 2D</li>
+                        <li><i class="fa-solid fa-check"></i> Plan d'aménagement</li>
+                        <li><i class="fa-solid fa-check"></i> Plan de masse</li>
+                        <li><i class="fa-solid fa-check"></i> Plan de coffrage & ferraillage</li>
+                        <li><i class="fa-solid fa-check"></i> Plan de fondation</li>
+                        <li><i class="fa-solid fa-check"></i> ...etc</li>
+                    </ul>
+                    <div class="software-tags">
+                        <span class="tag">ArchiCAD</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skills-card active">
+                    <div class="skills-icon-wrapper">
+                        <i class="fa-solid fa-cubes-stacked"></i>
+                    </div>
+                    <h3>Conception & Modélisation 3D (BIM)</h3>
+                    <p>Création de maquettes numériques intelligentes pour la coordination de projet.</p>
+                    <ul class="skills-list-items">
+                        <li><i class="fa-solid fa-check"></i> Modélisation de structures (Béton, Acier)</li>
+                        <li><i class="fa-solid fa-check"></i> Calculs de structure</li>
+                        <li><i class="fa-solid fa-check"></i> Dimensionnement</li>
+                        <li><i class="fa-solid fa-check"></i> Extraction de métrés & nomenclatures</li>
+                    </ul>
+                    <div class="software-tags">
+                        <span class="tag">Revit</span>
+                        <span class="tag">Robot Structure</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skills-card">
+                    <div class="skills-icon-wrapper">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Rendus & Visualisation</h3>
+                    <p>Création de visuels photoréalistes pour la promotion et la validation esthétique.</p>
+                    <ul class="skills-list-items">
+                        <li><i class="fa-solid fa-check"></i> Éclairage global & texturage réaliste</li>
+                        <li><i class="fa-solid fa-check"></i> Aménagement paysager & intégration sur site</li>
+                        <li><i class="fa-solid fa-check"></i> Animations vidéos architecturales 3D</li>
+                        <li><i class="fa-solid fa-check"></i> Post-production d'images</li>
+                    </ul>
+                    <div class="software-tags">
+                        <span class="tag">Blender</span>
+                        <span class="tag">Lumion</span>
+                        <span class="tag">Photoshop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section section-padding" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Mes <span class="text-gradient">Projets</span></h2>
+                <p class="section-subtitle">Explorez mes réalisations à travers les différentes étapes de conception.</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters" id="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="2d">Plans 2D</button>
+                <button class="filter-btn" data-filter="bim">Modèles 3D (BIM)</button>
+                <button class="filter-btn" data-filter="render">Rendus Photoréalistes</button>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid" id="portfolio-grid">
+                
+                <!-- Project Item 1: 2D Plan -->
+                <div class="portfolio-item" data-category="2d" data-id="1">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="assets/project_2d.jpg" alt="Plan de ferraillage 2D">
+                            <div class="portfolio-hover-overlay">
+                                <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-tag">Plans 2D</span>
+                            <h3>Plan d'Exécution de Structure</h3>
+                            <p>Plan de coffrage et détails de ferraillage pour les fondations d'un bâtiment R+4.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Item 2: 3D BIM -->
+                <div class="portfolio-item" data-category="bim" data-id="2">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="assets/project_3d.jpg" alt="Maquette BIM Revit structure">
+                            <div class="portfolio-hover-overlay">
+                                <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-tag">Maquette BIM</span>
+                            <h3>Modèle structurel d'un Complexe Mixte</h3>
+                            <p>Modélisation Revit LOD 350 des éléments porteurs en béton armé et charpente métallique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Item 3: Renders -->
+                <div class="portfolio-item" data-category="render" data-id="3">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-container">
+                            <img src="assets/project_render.jpg" alt="Rendu 3D Villa Contemporaine">
+                            <div class="portfolio-hover-overlay">
+                                <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-tag">Rendu Photoréaliste</span>
+                            <h3>Villa Contemporaine en bord de lac</h3>
+                            <p>Visualisation architecturale extérieure haut de gamme avec étude de lumière naturelle.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title"><span class="text-gradient">Contactez-moi</span></h2>
+                <p class="section-subtitle">Un projet à réaliser ? Une offre de poste ? N'hésitez pas à m'écrire.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info-panel">
+                    <h3>Coordonnées professionnelles</h3>
+                    <p>Disponible pour des opportunités en CDI, CDD ou missions de conseil en modélisation 3D et dessin technique.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:contact@ingenieur-3d.com">contact@ingenieur-3d.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Paris, France (Disponible en télétravail / Déplacement régional)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-panel">
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom Complet</label>
+                                <input type="text" id="name" name="name" placeholder="Ex: Jean Dupont" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresse Email</label>
+                                <input type="email" id="email" name="email" placeholder="Ex: jean.dupont@entreprise.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Objet</label>
+                            <input type="text" id="subject" name="subject" placeholder="Ex: Opportunité de recrutement / Projet 3D" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message détaillé..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                            Envoyer le message <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i>
+                        </button>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 AHOUANGANSI Picasso Léonardo. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#hero">Retour en haut</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal (Lightbox) -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-wrapper">
+            <button class="modal-close" id="modal-close" aria-label="Fermer la fenêtre"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body" id="modal-body">
+                <!-- Content injected dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
